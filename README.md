@@ -1,1 +1,1 @@
-# Arch Linux com o I3-GAPS
+# <h1 align='center'>Arch Linux com o I3-GAPS</h1>

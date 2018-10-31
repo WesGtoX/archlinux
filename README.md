@@ -1,7 +1,7 @@
 # <h1 align='center'>Arch Linux com o I3-GAPS</h1>
 <br>
 <br>
-<p><b>"Observação: Todos os pacotes e configurações aqui postados, são necessários para executar a instalação, feita por mim, do I3-GAPS."</b>
+<p><b>"Observação: Todos os pacotes e configurações aqui postados são necessários para executar a instalação do I3-GAPS."</b>
 <br>
 <br>
 <b>1° Passo: Logar com o root.</b><br><br>
@@ -43,4 +43,4 @@ sudo systemctl enable sddm.service<br><br>
 <b>10° Passo: Reiniciar.</b><br>
 sudo reboot<br><br>
 <b>11° Passo: Continuação sugerida.</b><br>
-<a href='https://github.com/jirrezdex/archlinux-i3'>FINALIZAR INSTALAÇÃO DO ARCH LINUX COM I3-GAPS</a></p>
+<a href='https://github.com/jirrezdex/archlinux-i3'>FINALIZAR INSTALAÇÃO DO ARCH LINUX COM O I3-GAPS</a></p>

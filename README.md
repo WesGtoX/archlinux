@@ -15,4 +15,9 @@ Section “InputClass”<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Driver “evdev”<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Option “XkbLayout” “br”<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Option “XkbVariant” “abnt2"<br>
-EndSection<br><br></p>
+EndSection<br><br>
+<b>3° Passo: Testar conexão com a internet e ativar.</b><br>
+ping -c3 google.com.br<br>
+systemctl enable dhcpcd.service<br>
+systemctl start dhcpcd<br>
+systemctl status dhcpcd<br><br></p>

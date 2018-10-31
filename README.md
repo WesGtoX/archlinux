@@ -30,4 +30,11 @@ mv PKGBUILD\?h\=packer PKGBUILD<br>
 makepkg<br>
 sudo pacman -U packer-*.pkg.tar.xz<br><br>
 <b>7° Passo: Instalar os seguintes pacotes.</b><br>
-packer -S google-chrome neofetch polybar sublime-text-nightly telegram-desktop ttf-font-awesome ttf-font-awesome-4 --noconfirm<br><br></p>
+packer -S google-chrome neofetch polybar sublime-text-nightly telegram-desktop ttf-font-awesome ttf-font-awesome-4 --noconfirm<br><br>
+<b>8° Passo: Instalar o ZSH.</b><br>
+sudo pacman -S zsh<br>
+sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"<br>
+git clone https://github.com/powerline/fonts.git<br>
+cd fonts<br>
+./install.sh<br>
+Agora é só editar o arquivo .zshrc no home do usuário e editar a seguinte linha -> ZSH_THEME="agnoster".<br><br></p>

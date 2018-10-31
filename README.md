@@ -23,4 +23,11 @@ systemctl start dhcpcd<br>
 systemctl status dhcpcd<br><br>
 <b>4° Passo: Instalar os seguintes pacotes.</b><br>
 pacman -S alsa-utils ark compton expac fakeroot feh git gvfs i3-gaps jshon leafpad p7zip pulseaudio pulseaudio-alsa rofi sddm terminus-font termite thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ttf-dejavu tumbler unzip xf86video-intel xfce4-panel xorg-server xorg-xinit xorg-xrandr zip<br><br>
-<b>5° Passo: Sair do root e logar com o usuário.</b><br><br></p>
+<b>5° Passo: Sair do root e logar com o usuário.</b><br><br>
+<b>6° Passo: Instalar o PACKER.</b><br>
+wget https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=packer<br>
+mv PKGBUILD\?h\=packer PKGBUILD<br>
+makepkg<br>
+sudo pacman -U packer-*.pkg.tar.xz<br><br>
+<b>7° Passo: Instalar os seguintes pacotes.</b><br>
+packer -S google-chrome neofetch polybar sublime-text-nightly telegram-desktop ttf-font-awesome ttf-font-awesome-4 --noconfirm<br><br></p>

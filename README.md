@@ -37,4 +37,10 @@ sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install
 git clone https://github.com/powerline/fonts.git<br>
 cd fonts<br>
 ./install.sh<br>
-Agora é só editar o arquivo .zshrc no home do usuário e editar a seguinte linha -> ZSH_THEME="agnoster".<br><br></p>
+Agora é só editar o arquivo .zshrc no home do usuário e editar a seguinte linha -> ZSH_THEME="agnoster".<br><br>
+<b>9° Passo: Ativar o gerenciador de login.</b><br>
+sudo systemctl enable sddm.service<br><br>
+<b>10° Passo: Reiniciar.</b><br>
+sudo reboot<br><br>
+<b>11° Passo: Continuação sugerida.</b><br>
+<a href='https://github.com/jirrezdex/archlinux-i3'>FINALIZAR INSTALAÇÃO DO ARCH LINUX COM I3-GAPS</a></p>

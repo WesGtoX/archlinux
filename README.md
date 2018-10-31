@@ -3,4 +3,16 @@
 <br>
 <p><b>"Observação: Todos os pacotes e configurações aqui postados, são necessários para executar a instalação, feita por mim, do I3-GAPS."</b>
 <br>
-<br></p>
+<br>
+<b>1° Passo: Logar com o root.</b><br><br>
+<b>2° Passo: Deixar teclado em pt_BR.</b><br>
+loadkeys br-abnt2<br>
+nano /etc/X11/xorg.conf.d/10-evdev.conf<br><br>
+Section “InputClass”<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Identifier “evdev keyboard catchall”<br>
+&nbsp;&nbsp;&nbsp;&nbsp;MatchIsKeyboard “on”<br>
+&nbsp;&nbsp;&nbsp;&nbsp;MatchDevicePath “/dev/input/event*”<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Driver “evdev”<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Option “XkbLayout” “br”<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Option “XkbVariant” “abnt2"<br>
+EndSection<br><br></p>

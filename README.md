@@ -1,4 +1,4 @@
-# <h1 align='center'>Instalação do Arch Linux (i3-gaps) - Part 1<h1>
+# <h1 align='center'>Instalação do Arch Linux (i3-gaps) - Part 1</h1>
 
 ### "Observação: Todos os pacotes e configurações aqui postados são necessários para executar a instalação do I3-GAPS." ###
 

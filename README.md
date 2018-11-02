@@ -57,5 +57,6 @@ packer -S google-chrome mailspring neofetch polybar telegram-desktop ttf-font-aw
 ## 10° Passo: Reiniciar: ##
 ```sudo reboot```  
 
-## 11° Passo: Continuação sugerida: ##
-[FINALIZAR INSTALAÇÃO DO ARCH LINUX COM O I3-GAPS](https://github.com/jirrezdex/archlinux-i3)
+## 10° Passo: Recomendações: ##
+[Instalação do Arch Linux (i3-gaps) - Parte 1](https://github.com/jirrezdex/sistema)  
+[Instalação do Arch Linux (i3-gaps) - Parte 3](https://github.com/jirrezdex/archlinux-i3)

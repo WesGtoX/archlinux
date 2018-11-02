@@ -50,7 +50,6 @@ packer -S google-chrome mailspring neofetch polybar telegram-desktop ttf-font-aw
 ```git clone https://github.com/powerline/fonts.git```  
 ```cd fonts```  
 ```./install.sh```  
-```Agora é só editar o arquivo .zshrc no home do usuário e editar a seguinte linha -> ZSH_THEME="agnoster".```  
 
 ## 9° Passo: Ativar o gerenciador de login: ##
 ```sudo systemctl enable sddm.service```  

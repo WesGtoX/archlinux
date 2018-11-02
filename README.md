@@ -27,7 +27,7 @@ EndSection
 
 ## 4° Passo: Instalar os seguintes pacotes: ##
 ```
-pacman -S alsa-utils ark compton expac fakeroot feh git gvfs i3-gaps jshon leafpad p7zip pulseaudio pulseaudio-alsa rofi sddm terminus-font termite thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ttf-dejavu tumbler unzip xf86video-intel xfce4-panel xorg-server xorg-xinit xorg-xrandr zip
+pacman -S alsa-utils ark compton dunst expac fakeroot feh git gvfs i3-gaps jshon notify-osd p7zip pulseaudio pulseaudio-alsa qbittorrent rofi scrot sddm terminus-font termite thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ttf-dejavu tumbler unzip vlc xf86video-intel xfce4-panel xorg-server xorg-xinit xorg-xrandr zip
 ```
 
 ## 5° Passo: Sair do root e logar como usuário: ##
@@ -41,7 +41,7 @@ pacman -S alsa-utils ark compton expac fakeroot feh git gvfs i3-gaps jshon leafp
 
 ## 7° Passo: Instalar os seguintes pacotes: ##
 ```
-packer -S google-chrome neofetch polybar telegram-desktop ttf-font-awesome ttf-font-awesome-4 visual-studio-code-bin --noconfirm
+packer -S google-chrome mailspring neofetch polybar telegram-desktop ttf-font-awesome ttf-font-awesome-4 visual-studio-code-bin wps-office --noconfirm
 ```
 
 ## 8° Passo: Instalar o ZSH: ##

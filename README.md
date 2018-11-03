@@ -27,7 +27,7 @@ EndSection
 
 ## 4° Passo: Instalar os seguintes pacotes: ##
 ```
-pacman -S alsa-utils ark compton dunst expac fakeroot feh git gvfs i3-gaps jshon notify-osd p7zip pulseaudio pulseaudio-alsa qbittorrent rofi scrot sddm terminus-font termite thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ttf-dejavu tumbler unzip vlc xf86video-intel xfce4-panel xorg-server xorg-xinit xorg-xrandr zip
+pacman -S alsa-utils ark compton dunst expac fakeroot feh git gvfs i3-gaps jshon notify-osd p7zip pulseaudio pulseaudio-alsa qbittorrent rofi scrot sddm terminus-font termite thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman ttf-dejavu tumbler unzip vlc xf86video-intel xfce4-panel xorg-server xorg-xinit xorg-xrandr zip wget
 ```
 
 ## 5° Passo: Sair do root e logar como usuário: ##
